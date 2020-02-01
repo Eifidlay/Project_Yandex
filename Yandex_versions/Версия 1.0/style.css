@@ -1,0 +1,123 @@
+.email-container {
+	width: 213px;
+	height: 131px;
+	border: 1px solid rgba(67, 67, 67, 0.5);
+ 	margin: 0 auto;
+ 	margin-top: 20%;
+ 	padding-left: 21px;
+ 	padding-top: 7px;
+ 	padding-right: 6px;
+ 	padding-bottom: 3px;
+}
+
+.email-block {
+
+}
+
+a.button {
+	width: 163px;
+	height: 33px;
+	text-decoration: none;
+	color: #000000;
+	background-color: #E4E4E4;
+	text-align: center;
+	display: block;
+	font: normal 13px arial;
+	position: absolute;
+ 	left: 50%;
+ 	top: 46%;
+ 	-webkit-transform: translate(-50%, -50%);
+ 	-moz-transform: translate(-50%, -50%);
+ 	-ms-transform: translate(-50%, -50%);
+ 	-o-transform: translate(-50%, -50%);
+ 	transform: translate(-50%, -50%);
+ 	display: inline-flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	text-align: center;
+}
+
+.button-back {
+	width: 163px;
+	height: 33px;
+	text-decoration: none;
+	color: #000000;
+	background-color: #E4E4E4;
+	text-align: center;
+	display: block;
+	font: normal 13px arial;
+	position: absolute;
+ 	left: 50%;
+ 	top: 46%;
+ 	-webkit-transform: translate(-50%, -50%);
+ 	-moz-transform: translate(-50%, -50%);
+ 	-ms-transform: translate(-50%, -50%);
+ 	-o-transform: translate(-50%, -50%);
+ 	transform: translate(-50%, -50%);
+ 	display: inline-flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	text-align: center;
+}
+
+a.button-back:not(.active):hover,
+a.button-back:not(.active):focus {
+  	background-color: #D3D1CB;
+}
+
+a.button:not(.active):hover,
+a.button:not(.active):focus {
+  	background-color: #D3D1CB;
+}
+
+a.email {
+	width: 40px;
+	height: 16px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	text-decoration: none;
+	color: #000000;
+}
+
+a.email:not(.active):hover {
+  	color: #FC2727;
+}
+
+
+a.reg-email {
+	width: 94px;
+	height: 16px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	text-decoration: none;
+	color: #D3D1CB;
+	float: right;
+}
+
+a.reg-email:not(.active):hover {
+  	color: #FC2727;
+}
+
+
+a.get-plus {
+	width: 114px;
+	height: 19px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	align-items: center;
+	color: #90BCFF;
+	align-content: space-between;
+}
+
+a.get-plus:not(.active):hover {
+	color: #FC2727;
+}
